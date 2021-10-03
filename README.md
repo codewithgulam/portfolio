@@ -16,8 +16,7 @@ Donate directly to open source projects.
 Contribute any program or web code.
 Contribution must be valid and unique.
 Anything valuable.
-
-Or Contrubute any project.
+Contrubute any project.
 
 
 ## Step for Contribution

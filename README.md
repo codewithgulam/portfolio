@@ -11,7 +11,8 @@ Donate directly to open source projects.
 
 ## See the result at this link.
 
-https://codewithgulam.github.io/f-f-c-port-folio/index.html
+https://codewithgulam.github.io/f-f-c-port-folio/index.htm
+
 
 
 ## *Rules To Contribute To This Repo*

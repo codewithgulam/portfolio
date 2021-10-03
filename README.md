@@ -13,19 +13,18 @@ Donate directly to open source projects.
 ## *Rules To Contribute To This Repo*
 
 
-Contribute a blogpost on any Topic.
-
+Contribute any program or web code.
+Contribution must be valid and unique.
 Anything valuable.
 
-Or Contrubute any tool / pages
-
+Or Contrubute any project.
 
 
 ## Step for Contribution
 
 
-1. Fork this repo
-2. Star this repo
-3. Add a file
-4. commit the code
-5. Make pull request
+1. Fork this repo.
+2. Star this repo.
+3. Add a file or create anything valuable.
+4. commit the code.
+5. Make pull request.

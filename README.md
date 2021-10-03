@@ -13,6 +13,8 @@ Donate directly to open source projects.
 ## *Rules To Contribute To This Repo*
 
 
-Contribute a blogpost on any Topic .
+Contribute a blogpost on any Topic.
+
 Anything valuable.
+
 Or Contrubute any tool / pages

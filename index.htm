@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resp.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <style>
         .nav-link{
             color:white;
@@ -18,6 +19,15 @@
         }
         .nav-item{
             margin-inline:1rem;
+        }
+        .section-title{
+            position:relative;
+            font-weight:bold;
+        }
+        .skill-icon{
+            font-size:6em;
+            cursor:pointer;
+            margin:2rem;
         }
     </style>
 </head>
@@ -38,53 +48,67 @@
         <p class="wel-subtitle">a web developer</p>
     </section>
 
+    <section id="skills" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
+        <h1 class="section-title">Skills</h2>
+        <div style="display:flex;align-items:center;justify-content:space-evenly;margin:2rem;">
+            <i class="devicon-python-plain-wordmark skill-icon"></i>
+            <i class="devicon-java-plain-wordmark skill-icon"></i>
+            <i class="devicon-cplusplus-line-wordmark skill-icon"></i>
+            <i class="devicon-javascript-plain skill-icon"></i>
+        </div>
+    </section>
+
     <!-- welcome-section ended here -->
-    <section id="projects">
-        <h1 class="text-center">These are some of my projects</h1>
+    <section id="projects" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
+        <h1 class="section-title" style="color:white;;">Projects</h2>
         <div class="project-tile">
-            <a href="#" class="grid-item">
-                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-                    alt="">
-                <p class="figcaption">
-                    <span class="">Tribute Page</span>
-                </p>
-            </a>
-
-            <a href="#" class="grid-item">
-                <img class="proj-image"
-                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
-                <p class="figcaption">
-                    <span class="">Random Quote Machine</span>
-                </p>
-            </a>
-
-            <a href="#" class="grid-item">
-                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
-                <p class="figcaption">
-                    <span class="">JavaScript Calculator</span>
-                </p>
-            </a>
-            <a href="#" class="grid-item">
-                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
-                <p class="figcaption">
-                    <span class="">Map Data Across The Globe</span>
-                </p>
-            </a>
-
-            <a href="#" class="grid-item">
-                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
-                <p class="figcaption">
-                    <span class="">Wikipedia Viewer</span>
-                </p>
-            </a>
-
-            <a href="#" class="grid-item">
-                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-                    alt="">
-                <p class="figcaption">
-                    <span class="">Tic Tac Toe Game</span>
-                </p>
-            </a>
+            <div style="display:flex;justify-content:center;">
+                <a href="#" class="grid-item">
+                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                        alt="">
+                    <p class="figcaption">
+                        <span class="">Tribute Page</span>
+                    </p>
+                </a>
+    
+                <a href="#" class="grid-item">
+                    <img class="proj-image"
+                        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                    <p class="figcaption">
+                        <span class="">Random Quote Machine</span>
+                    </p>
+                </a>
+    
+                <a href="#" class="grid-item">
+                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
+                    <p class="figcaption">
+                        <span class="">JavaScript Calculator</span>
+                    </p>
+                </a>
+            </div>
+            <div style="display:flex;justify-content:center;">
+                <a href="#" class="grid-item">
+                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
+                    <p class="figcaption">
+                        <span class="">Map Data Across The Globe</span>
+                    </p>
+                </a>
+    
+                <a href="#" class="grid-item">
+                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
+                    <p class="figcaption">
+                        <span class="">Wikipedia Viewer</span>
+                    </p>
+                </a>
+    
+                <a href="#" class="grid-item">
+                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                        alt="">
+                    <p class="figcaption">
+                        <span class="">Tic Tac Toe Game</span>
+                    </p>
+                </a>
+            </div> 
         </div>
         <div class="btn-div">
             <a href="#" class="btn">Show all

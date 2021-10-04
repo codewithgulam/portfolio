@@ -58,30 +58,19 @@ html {
 #projects {
     background: var(--blue);
     height: 100%;
-    padding: 10px 30px;
-}
-
-.project-tile {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: 1fr 1fr;
-    /* border: 2px solid; */
-    grid-gap: 3rem;
-    margin-bottom: 3rem;
 }
 
 .grid-item {
     background: var(--gray);
     text-decoration: none;
-    /* width: 100%; */
+    width:30vw;
     color: white;
     height: 400px;
+    margin:1rem;
 }
 
 .proj-image {
     width: 100%;
-    /* height: calc(100% - 3.8rem); */
     height: calc(100% - 75px);
     object-fit: cover;
 }

@@ -20,6 +20,38 @@ html {
     --gray: #303841;
 }
 
+.nav-list {
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: var(--red);
+    width: 100%;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav-list li {
+    list-style: none;
+    margin: 14px 24px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--white);
+    transition: .1s ease-out;
+}
+.nav-link:hover{
+    border-bottom: 2px solid var(--white);
+    
+}
 #welcome-section {
     background: #000;
     height: 100vh;
@@ -58,19 +90,30 @@ html {
 #projects {
     background: var(--blue);
     height: 100%;
+    padding: 10px 30px;
+}
+
+.project-tile {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    /* border: 2px solid; */
+    grid-gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 .grid-item {
     background: var(--gray);
     text-decoration: none;
-    width:30vw;
+    /* width: 100%; */
     color: white;
     height: 400px;
-    margin:1rem;
 }
 
 .proj-image {
     width: 100%;
+    /* height: calc(100% - 3.8rem); */
     height: calc(100% - 75px);
     object-fit: cover;
 }
@@ -171,4 +214,11 @@ footer {
 .footer-fa {
     color: var(--white);
     text-decoration: none;
+}
+
+a {
+    transition: all 0.25s;
+}
+a:hover {
+    transform: translateY(-0.25em);
 }

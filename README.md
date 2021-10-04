@@ -32,3 +32,12 @@ Contrubute any project.
 3. Add a file or create anything valuable.
 4. commit the code.
 5. Make pull request.
+
+
+## Make PR instantly 
+
+1. Open forked repo.
+2. Edit/add what you wanna commit.
+3. Go to PR of forked repo.
+4. Create New.
+5. It will redirect to original repo, compare automatically and ask to merge.

@@ -198,7 +198,7 @@ html {
 }
 
 .contact-links a:hover {
-    transform: translateY(10px);
+    transform: translateY(-10px);
 }
 
 footer {
@@ -214,4 +214,11 @@ footer {
 .footer-fa {
     color: var(--white);
     text-decoration: none;
+}
+
+a {
+    transition: all 0.25s;
+}
+a:hover {
+    transform: translateY(-0.25em);
 }

@@ -61,6 +61,7 @@ html {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 2;
 }
 
 .nav-list li {
@@ -134,6 +135,11 @@ html {
     /* width: 100%; */
     color: white;
     height: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover{
+    transform: translateY(-15px);
 }
 
 .proj-image {

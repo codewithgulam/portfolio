@@ -8,37 +8,22 @@
     <title>Personal PortFolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resp.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    <style>
-        .nav-link{
-            color:white;
-        }
-        .nav-link:hover{
-            color:var(--blue);
-        }
-        .nav-item{
-            margin-inline:1rem;
-        }
-        .section-title{
-            position:relative;
-            font-weight:bold;
-        }
-        .skill-icon{
-            font-size:6em;
-            cursor:pointer;
-            margin:2rem;
-        }
-    </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark p-3" style="justify-content:space-between;">
-        <h2 class="navbar-brand m-2 ml-4"><a href="#" style="text-decoration:none;color:white;">John Doe</a></h2>
-        <ul class="navbar-nav">
-            <li class="nav-item"><a href="#welcome-section" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#projects" class="nav-link">Work</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    <nav id="navbar">
+        <ul class="nav-list">
+            <li>
+                <a class="nav-link" href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#projects">Work</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
         </ul>
     </nav>
     <!-- navbar ended here -->
@@ -48,70 +33,56 @@
         <p class="wel-subtitle">a web developer</p>
     </section>
 
-    <section id="skills" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
-        <h1 class="section-title">Skills</h2>
-        <div style="display:flex;align-items:center;justify-content:space-evenly;margin:2rem;">
-            <i class="devicon-python-plain-wordmark skill-icon"></i>
-            <i class="devicon-java-plain-wordmark skill-icon"></i>
-            <i class="devicon-cplusplus-line-wordmark skill-icon"></i>
-            <i class="devicon-javascript-plain skill-icon"></i>
-        </div>
-    </section>
-
     <!-- welcome-section ended here -->
-    <section id="projects" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
-        <h1 class="section-title" style="color:white;;">Projects</h2>
+    <section id="projects">
+        <h1 class="text-center">These are some of my projects</h1>
         <div class="project-tile">
-            <div style="display:flex;justify-content:center;">
-                <a href="#" class="grid-item">
-                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-                        alt="">
-                    <p class="figcaption">
-                        <span class="">Tribute Page</span>
-                    </p>
-                </a>
-    
-                <a href="#" class="grid-item">
-                    <img class="proj-image"
-                        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
-                    <p class="figcaption">
-                        <span class="">Random Quote Machine</span>
-                    </p>
-                </a>
-    
-                <a href="#" class="grid-item">
-                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
-                    <p class="figcaption">
-                        <span class="">JavaScript Calculator</span>
-                    </p>
-                </a>
-            </div>
-            <div style="display:flex;justify-content:center;">
-                <a href="#" class="grid-item">
-                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
-                    <p class="figcaption">
-                        <span class="">Map Data Across The Globe</span>
-                    </p>
-                </a>
-    
-                <a href="#" class="grid-item">
-                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
-                    <p class="figcaption">
-                        <span class="">Wikipedia Viewer</span>
-                    </p>
-                </a>
-    
-                <a href="#" class="grid-item">
-                    <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-                        alt="">
-                    <p class="figcaption">
-                        <span class="">Tic Tac Toe Game</span>
-                    </p>
-                </a>
-            </div> 
+            <a href="#" class="grid-item">
+                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                    alt="">
+                <p class="figcaption">
+                    <span class="">Tribute Page</span>
+                </p>
+            </a>
+
+            <a href="#" class="grid-item">
+                <img class="proj-image"
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                <p class="figcaption">
+                    <span class="">Random Quote Machine</span>
+                </p>
+            </a>
+
+            <a href="#" class="grid-item">
+                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
+                <p class="figcaption">
+                    <span class="">JavaScript Calculator</span>
+                </p>
+            </a>
+            <a href="#" class="grid-item">
+                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
+                <p class="figcaption">
+                    <span class="">Map Data Across The Globe</span>
+                </p>
+            </a>
+
+            <a href="#" class="grid-item">
+                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
+                <p class="figcaption">
+                    <span class="">Wikipedia Viewer</span>
+                </p>
+            </a>
+
+            <a href="#" class="grid-item">
+                <img class="proj-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                    alt="">
+                <p class="figcaption">
+                    <span class="">Tic Tac Toe Game</span>
+                </p>
+            </a>
         </div>
         <div class="btn-div">
-            <a href="#" class="btn">Show all
+            <a href="" class="btn">Show all
                 <i class="fa fa-chevron-right"></i>
             </a>
         </div>
@@ -132,7 +103,7 @@
                 <i class="fa fa-github"></i>
                 Github
             </a>
-            <a href="#">
+            <a disabled href="#">
                 <i class="fa fa-twitter"></i>
                 Twitter
             </a>
@@ -147,10 +118,15 @@
         </div>
     </section>
     <footer>
-        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-        <p>© Created for<a class="footer-fa" href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fa fa-free-code-camp"></i></a></p>
+        <p>
+            **This is just a fake portfolio. All the projects and contact details given are not real.
+        </p>
+        <p>
+            © Created for
+            <a class="footer-fa" href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i
+                    class="fa fa-free-code-camp"></i></a>
+        </p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
 </html>

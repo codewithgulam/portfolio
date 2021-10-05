@@ -18,10 +18,15 @@ https://codewithgulam.github.io/f-f-c-port-folio/index.htm
 ## *Rules To Contribute To This Repo*
 
 
-Contribute any program or web code.
+
+
 Contribution must be valid and unique.
-Anything valuable.
+
+Anything valuable changes needed.
+
 Contrubute any project.
+
+Don't upload any off topic files like programs etc.
 
 
 ## Step for Contribution

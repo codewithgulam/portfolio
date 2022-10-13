@@ -1,5 +1,7 @@
 ## *What is Hacktoberfest?*
 
+![image](https://user-images.githubusercontent.com/114826204/195355836-ba27d124-ed02-4906-96f5-0c5b08e52e23.png)
+
 
 Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
